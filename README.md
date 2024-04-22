@@ -20,4 +20,11 @@ Lampiran Running RabbitMQ
 
 
 Screen show consoles after running publisher multiple times
+![alt text](images/image2.png)
+
+Setelah publisher dijalankan, data yang telah ditentukan sebelumnya akan dikirimkan ke dalam message queue. Kemudian, subscriber akan menerima data tersebut dari message queue dan menampilkan pesan sesuai dengan lampiran yang telah disediakan.
+
+Monitoring chart based on publisher
 ![alt text](images/image.png)
+
+Grafik di atas menunjukkan adanya *spike* / lonjakan yang menandakan peningkatan laju pesan pada waktu tertentu. Fenomena ini terjadi ketika cargo run dijalankan secara berulang pada publisher sehingga menyebabkan peningkatan laju pesan yang merupakan message queue pada RabbitMQ.
