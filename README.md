@@ -14,3 +14,6 @@ b. The url of: `amqp://guest:guest@localhost:5672` is the same as in the subscri
 Makna dari amqp://guest:guest@localhost:5672 dalam program publisher yang sama dengan dalam program subscriber dalam arsitektur AMQP adalah bahwa keduanya telah dikonfigurasi untuk terhubung ke broker pesan AMQP yang identik, yaitu RabbitMQ, yang di-hosting di mesin lokal. Publisher bertanggung jawab mengirim pesan ke queue di RabbitMQ, sementara subscriber akan menyiapkan listener untuk menerima atau mengambil pesan dari queue tersebut.
 
 Hal ini menunjukkan bahwa keduanya berinteraksi melalui RabbitMQ sebagai titik koordinasi pusat, di mana publisher mengirim pesan dan subscriber menunggu serta memproses pesan yang diterima. Karena itu, penting bagi keduanya untuk terhubung ke broker yang sama agar komunikasi ini dapat berjalan dengan efektif.
+
+Lampiran Running RabbitMQ
+![alt text](images/image.png)
