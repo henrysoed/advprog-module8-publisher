@@ -16,4 +16,8 @@ Makna dari amqp://guest:guest@localhost:5672 dalam program publisher yang sama d
 Hal ini menunjukkan bahwa keduanya berinteraksi melalui RabbitMQ sebagai titik koordinasi pusat, di mana publisher mengirim pesan dan subscriber menunggu serta memproses pesan yang diterima. Karena itu, penting bagi keduanya untuk terhubung ke broker yang sama agar komunikasi ini dapat berjalan dengan efektif.
 
 Lampiran Running RabbitMQ
+![alt text](images/image1.png)
+
+
+Screen show consoles after running publisher multiple times
 ![alt text](images/image.png)
